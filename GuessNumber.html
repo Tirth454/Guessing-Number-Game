@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <style>
+        body {
+            background-color: #212121;
+            color: aliceblue;
+        }
+
+        .input {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .result {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="input">
+        <h1>Guess a Number</h1>
+        <input type="text" id="noInput"><br>
+        <button id="submit">Submit</button>
+    </form>
+    <div class="result">
+        <p>Comment:<span class="TF"></span></p>
+        <p>Previous Guess:<span class="preGuess"></span></p>
+        <p>Guesses Remaining:<span class="RemGuess"></span></p>
+
+    </div>
+
+
+
+</body>
+<script src="GuessNumber.js"></script>
+
+</html>
